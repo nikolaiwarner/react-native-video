@@ -1,0 +1,90 @@
+Arguments: 
+  /usr/local/Cellar/node/9.6.1/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js
+
+PATH: 
+  /Users/nickwarner/.rbenv/shims:/Users/nickwarner/.rbenv/shims:/Users/nickwarner/.rbenv/bin:/Users/nickwarner/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:/Users/nickwarner/Library/Android/sdk/tools:/Users/nickwarner/Library/Android/sdk/platform-tools:/usr/local/bin:/Users/nickwarner/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.6.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-native-video-0.9.0",
+    "version": "0.9.0",
+    "description": "A <Video /> element for react-native",
+    "main": "Video.js",
+    "license": "MIT",
+    "author": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+    "files": [
+      "android/build.gradle",
+      "android/RCTVideo.iml",
+      "android/src/main/AndroidManifest.xml",
+      "android/src/main/res/values/styles.xml",
+      "android/src/main/java/com/brentvatne/react/ReactVideoPackage.java",
+      "android/src/main/java/com/brentvatne/react/ReactVideoViewManager.java",
+      "android/src/main/java/com/brentvatne/react/ReactVideoView.java",
+      "RCTVideo.xcodeproj",
+      "RCTVideo.h",
+      "RCTVideo.m",
+      "RCTVideoManager.h",
+      "RCTVideoManager.m",
+      "README.md",
+      "UIView+FindUIViewController.h",
+      "UIView+FindUIViewController.m",
+      "RCTVideoPlayerViewController.h",
+      "RCTVideoPlayerViewController.m",
+      "RCTVideoPlayerViewControllerDelegate.h",
+      "Video.js",
+      "VideoResizeMode.js",
+      "react-native-video.podspec"
+    ],
+    "contributors": [
+      {
+        "name": "Johannes Lumpe",
+        "email": "johannes@lum.pe"
+      },
+      {
+        "name": "Baris Sencan",
+        "email": "baris.sncn@gmail.com"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:brentvatne/react-native-video.git"
+    },
+    "devDependencies": {
+      // "jest-cli": "0.2.1",
+      // "eslint": "1.10.3",
+      // "babel-eslint": "5.0.0-beta8",
+      // "eslint-plugin-react": "3.16.1",
+      // "eslint-config-airbnb": "4.0.0"
+    },
+    "dependencies": {
+      "keymirror": "0.1.1",
+      "prop-types": "15.6.1"
+    },
+    "scripts": {
+      "test": "node_modules/.bin/eslint *.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/nickwarner/repositories/nikolaiwarner/react-native-video-0.9.0/package.json: Unexpected token / in JSON at position 1341
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:109:13
+      at <anonymous>
